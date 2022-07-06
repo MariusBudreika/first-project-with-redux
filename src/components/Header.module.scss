@@ -1,0 +1,43 @@
+.header {
+    display: inline-flex;
+    justify-content:space-between;
+    margin-bottom: 3rem;
+    width: 100%;
+    background-color: #f1faee;
+    align-items: center;
+    height: 3rem;
+}
+
+.title {
+    margin-left: 2rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.header ul {
+    display: flex;
+    list-style: none;
+    margin-right: 2rem;
+    padding: 0;
+    align-items: center;
+    font-size: 0.8rem;
+  }
+  
+.header a {
+    margin-right: 0.25rem;
+    text-decoration: none;
+    color: black;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.btn {
+    margin: 0;
+    border: 0;
+    box-shadow: 1px 2px #a8dadc;
+    &:hover {
+        background-color: #457b9d;
+        box-shadow: 1px 2px #1d3557;
+    }
+}

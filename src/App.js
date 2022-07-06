@@ -1,11 +1,13 @@
-import "./App.css";
 import Counter from "./components/Counter";
+import { Fragment } from "react";
+import Header from "./components/Header";
 
 function App() {
   return (
-    <div className="App">
+    <Fragment>
+      <Header />
       <Counter />
-    </div>
+    </Fragment>
   );
 }
 
